@@ -1,6 +1,7 @@
 # Logger
 ### A simple package to log colourful messages for your program
 
+
 ![downloadspermonth](https://img.shields.io/npm/dm/@hazeral/logger.svg "Downloads per month")
 
 To install use:
