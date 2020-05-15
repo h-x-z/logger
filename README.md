@@ -19,4 +19,4 @@ Log.white('Title', 'Message')
 
 ![example](https://i.imgur.com/FGWzAZG.png "Example")
 
-![downloadspermonth](https://img.shields.io/npm/dm/@hazeral/logger.svg "Downloads per month")
+![downloadspermonth](https://img.shields.io/npm/dt/@hazeral/logger.svg "Downloads per month")
