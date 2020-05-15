@@ -52,26 +52,31 @@ const colours = {
 module.exports = class Logger {
     static blue(title, ...msg) {
         if (title == '' || msg == '') throw new Error('Invalid args provided');
-        return console.log(`${colours.blue('[')}${getDate()}${colours.blue(']')} ${colours.bgblue(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
+        return console.log(`${colours.blue('[')}${getDate()}${colours.blue(']')} ` +
+        `${colours.bgblue(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
     }
 
     static yellow(title, ...msg) {
         if (title == '' || msg == '') throw new Error('Invalid args provided');
-        return console.log(`${colours.yellow('[')}${getDate()}${colours.yellow(']')} ${colours.bgyellow(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
+        return console.log(`${colours.yellow('[')}${getDate()}${colours.yellow(']')} ` +
+        `${colours.bgyellow(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
     }
 
     static red(title, ...msg) {
         if (title == '' || msg == '') throw new Error('Invalid args provided');
-        return console.log(`${colours.red('[')}${getDate()}${colours.red(']')} ${colours.bgred(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
+        return console.log(`${colours.red('[')}${getDate()}${colours.red(']')} ` +
+        `${colours.bgred(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
     }
 
     static green(title, ...msg) {
         if (title == '' || msg == '') throw new Error('Invalid args provided');
-        return console.log(`${colours.green('[')}${getDate()}${colours.green(']')} ${colours.bggreen(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
+        return console.log(`${colours.green('[')}${getDate()}${colours.green(']')} ` +
+        `${colours.bggreen(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
     }
     
     static white(title, ...msg) {
         if (title == '' || msg == '') throw new Error('Invalid args provided');
-        return console.log(`[${getDate()}] ${colours.bgwhite(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
+        return console.log(`[${getDate()}] ` +
+        `${colours.bgwhite(' ' + title.toUpperCase() + ' ')} ${msg.join(', ')}\n`);
     }
 }
