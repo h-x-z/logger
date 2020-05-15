@@ -1,0 +1,19 @@
+{
+  "name": "@hazeral/logger",
+  "version": "2.0.3",
+  "description": "A simple package to log colourful messages for your program",
+  "main": "index.js",
+  "keywords": [
+    "logger",
+    "console",
+    "back-end",
+    "cli"
+  ],
+  "author": "Hazeral",
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Hazeral/logger.git"
+  },
+  "dependencies": {}
+}
