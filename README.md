@@ -1,9 +1,6 @@
 # Logger
 ### A simple package to log colourful messages for your program
 
-
-![downloadspermonth](https://img.shields.io/npm/dm/@hazeral/logger.svg "Downloads per month")
-
 To install use:
 ```bash
 npm i --save @hazeral/logger
@@ -21,3 +18,5 @@ Log.white('Title', 'Message')
 ```
 
 ![example](https://i.imgur.com/FGWzAZG.png "Example")
+
+![downloadspermonth](https://img.shields.io/npm/dm/@hazeral/logger.svg "Downloads per month")
