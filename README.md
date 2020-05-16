@@ -17,6 +17,6 @@ logger.green('Title', 'Message')
 logger.white('Title', 'Message')
 ```
 
-![example](https://i.imgur.com/EMdkkq7.png "Example")
+![example](https://i.imgur.com/5eglXSt.png "Example")
 
-![downloadspermonth](https://img.shields.io/npm/dt/@hazeral/logger.svg "Downloads per month")
+![downloads](https://img.shields.io/npm/dt/@hazeral/logger.svg "Downloads")
